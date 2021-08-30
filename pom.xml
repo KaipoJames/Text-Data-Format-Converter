@@ -1,8 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.converter</groupId>
-  <artifactId>converter</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <modelVersion>4.0.0</modelVersion> <!-- Version of Maven -->
+  <groupId>com.converter</groupId> <!-- Name of the organization creating this product -->
+  <artifactId>converter</artifactId>  <!-- Name of the final build  -->
+  <version>1.0-SNAPSHOT</version> <!-- Snapshot(something in progress) -->
+
+  <!-- If you are building this program into a jar archive file, include this tag: -->
+  <!-- <packaging>jar</packaging> -->
+  <!-- The resulting jar file would be called converter-1.0-SNAPSHOT.jar when the build completes -->
+
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
